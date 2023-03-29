@@ -19,7 +19,7 @@ pipeline {
                             {
                                 checkout([$class: 'GitSCM', branches: [[name: "main"]],
                                           wdoGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [
-                                        [credentialsId: "exitotest", url: "https://github.com/Andresmaus/proyecto-screenplay-abril-2023"]
+                                        [credentialsId: "exitotest", url: "https://github.com/Andresmaus/proyectoscreenplay2023"]
                                 ]])
                             }
                 }
